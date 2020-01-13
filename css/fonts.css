@@ -1,0 +1,42 @@
+
+
+
+@font-face {
+    font-family: 'robotoRegular';
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url(../font/Poppins-Light.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(../font/Poppins-Medium.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'backfont';
+    src: url(../font/backgroundFont.ttf);
+}
+
+
+
+
+@font-face {
+    font-family: 'Arabic';
+    src: url(../font/Tajwal.ttf);
+}

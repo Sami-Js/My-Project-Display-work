@@ -1,0 +1,151 @@
+
+
+@import url(variable.css);
+/* section styles write subject  */
+
+.body-sub table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:100% ;
+}
+
+
+
+.body-sub table td , th{
+    border: 1px solid #b3b1b1;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+  .body-sub table th{
+      background: white  ;
+  }
+
+
+  .body-sub table tbody:nth-child(odd) {
+    background: #d0c5ec62 !important  ;
+}
+
+
+.body-sub pre {
+    width: 100% ;
+    background: rgb(236, 236, 236) ;
+    border: 1px solid #a5a5a538;
+}
+
+
+
+
+/* add subject here */
+
+.new-subject{
+    position: absolute;
+    width: 100% ;
+    height: 100vh ;
+    top: 0 ;
+    left: 0 ;
+    background: white ;
+    z-index: 1000;
+    
+}
+
+
+.contnet-new-subject {
+    resize: none ;
+    height: 510px !important;
+}
+
+
+.icon-write {
+    padding : 1px 6px ;
+    cursor: pointer;
+    transition: background-color .5s ;
+    border-radius: 3px ;
+    font-weight: bold;
+    font-family: tahoma ;
+    font-size: 13px ;
+}
+
+.icon-write:hover {
+    background: #ededed ; 
+}
+
+
+
+
+/* dropdown color */ 
+
+.colors {
+    background: red ;
+    cursor: pointer;
+}
+
+.colors:nth-child(1){
+    background: #c96a26;
+}
+.colors:nth-child(2){
+    background: #3e4f81;
+}
+.colors:nth-child(3){
+    background: #37ca5c;
+}
+
+.colors:nth-child(4){
+    background: #7e7d7d;
+}
+
+.colors:nth-child(5){
+    background: #bb3818;
+}
+
+.colors:nth-child(6){
+    background: #91417f;
+}
+
+.colors:nth-child(7){
+    background: #2fa9be;
+}
+
+.colors:nth-child(8){
+    background: #33a842;
+}
+.colors:nth-child(9){
+    background: #7834d1;
+}
+.colors:nth-child(10){
+    background: #c0d318;
+}
+.colors:nth-child(11){
+    background: #d3aa23;
+}
+.colors:nth-child(12){
+    background: #d86030;
+}
+
+.menu-color{
+    display: grid;
+    grid-template: repeat(3 , 10px ) / repeat(4 , 10px );
+    justify-content: center;
+    grid-gap: 15px ;
+}
+
+
+
+.colors{
+    position: relative;
+}
+
+.colors:hover::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #dedede;
+    z-index: -1;
+    padding: 8px;
+    transform: translate(3px , -3px );
+}
+  

@@ -1,0 +1,17 @@
+
+
+/* for click to subject */
+
+.subject{
+    cursor: pointer;
+}
+.subject:active {
+    transform: scale(.99);
+}
+
+
+/* btns edit */
+
+#cancel , #save {
+    transition: transform 1s ;
+}
